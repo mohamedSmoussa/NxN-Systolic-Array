@@ -1,13 +1,6 @@
 NxN Systolic Array 🚀
-=====================
-
-.. image:: https://img.shields.io/badge/HDL-SystemVerilog-blue
-.. image:: https://img.shields.io/badge/FPGA-Synthesis-green
-.. image:: https://img.shields.io/badge/Application-AI%20Accelerator-red
-
 Author: **Mohamed Shaban Moussa**  
 📧 `mohamedmouse066@gmail.com <mailto:mohamedmouse066@gmail.com>`_  
-🔗 `GitHub Repository <https://github.com/mohamedSmoussa/NxN-Systolic-Array>`_
 
 Project Overview
 ----------------
@@ -70,25 +63,7 @@ Repository Structure
    ├── docs/                  # Documentation, schematics & waveforms  
    │
    └── README.rst             # This file  
-
-How to Run
-----------
-**Simulation (Icarus Verilog)**::
-
-   # Compile design + testbench
-   iverilog -g2012 -o systolic_tb.vvp tb/systolic_tb.sv src/*.sv
-
-   # Run simulation
-   vvp systolic_tb.vvp
-
-   # View waveforms
-   gtkwave systolic_tb.vcd
-
-**FPGA Synthesis**
-
-1. Import ``src/`` into Vivado / Quartus.  
-2. Configure ``N_SIZE`` and ``DATAWIDTH``.  
-3. Generate bitstream and program FPGA.  
+ 
 
 Timing Behavior
 ---------------
