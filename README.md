@@ -2,7 +2,7 @@ NxN Systolic Array 🚀
 ---
 Author: **Mohamed Shaban Moussa**  
 ---
-📧 `mohamedmouse066@gmail.com `_  
+📧 `mohamedmouse066@gmail.com `
 
 Project Overview
 ----------------
